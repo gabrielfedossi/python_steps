@@ -74,3 +74,5 @@ numeros_3 = [1,2,3]
 numeros_3.extend([4,5])
 print(numeros_3)
 
+
+# lista[0:4:2] inicio, fim, passo
