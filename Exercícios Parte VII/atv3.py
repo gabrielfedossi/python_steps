@@ -13,3 +13,12 @@ print(sum(lista))
 
 print(sum(lista) / len(lista))
 
+# Intervalo do número 1 a 9;
+# Intervalo de 8 a 10;
+# Numeros pares;
+# Numeros ímpares;
+# Lista Ordenada reversa;
+# Lista ordenada;
+# Quantidade;
+# Soma;
+# Media;
