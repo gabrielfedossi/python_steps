@@ -16,10 +16,6 @@ print("50 → Refrigerante → R$ 6.00")
 print("51 → Suco Natural → R$ 8.00")
 print("52 → Chá Gelado → R$ 7.00")
 
-
-
-
-
 lanches = {
     10: 18.00,
     11: 25.00,
@@ -37,7 +33,6 @@ adicionais = {
     31: 4.50,
     32: 2.00
 }
-
 
 lanche = int(input("Código do lanche: "))
 bebida = int(input("Código da bebida: "))
