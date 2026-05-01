@@ -30,19 +30,19 @@ while True:
 
     elif opcao == 1:
         produto_escolhido = "Fone Bluetooth"
-        valor += 120.00
+        valor = valor + 120.00
 
     elif opcao == 2:
         produto_escolhido = "Teclado Mecânico"
-        valor += 250.00
+        valor = valor + 250.00
 
     elif opcao == 3:
         produto_escolhido = "Mouse Gamer"
-        valor += 80.00
+        valor = valor + 80.00
 
     elif opcao == 4:
         produto_escolhido = "Webcam HD"
-        valor += 150.00
+        valor = valor + 150.00
 
     else:
         print("Insira uma opção válida")
@@ -63,7 +63,7 @@ while True:
 
     elif opcao_entrega == 2:
         entrega_escolhida = "Entrega em casa"
-        valor += 20
+        valor = valor + 20
 
     else:
         print("Opção inválida")
@@ -82,11 +82,11 @@ while True:
 
     if opcao_pagamento == 1:
         pagamento_escolhido = "Pix"
-        valor *= 0.9
+        valor = valor * 0.9
 
     elif opcao_pagamento == 2:
         pagamento_escolhido = "Cartão de Crédito"
-        valor *= 1.05
+        valor = valor * 1.05
 
     else:
         print("Opção inválida")
