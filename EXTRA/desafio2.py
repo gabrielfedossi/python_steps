@@ -5,6 +5,18 @@
 # 🧾 REQUISITOS DO SISTEMA
 # • Permitir ao usuário selecionar: 1 lanche (obrigatório), 1 bebida (obrigatória), 0 ou mais adicionais (opcional)
 # • Calcular o valor total do pedido considerando as regras
+print("===== CARDÁPIO =======")
+print("LANCHES:")
+print("10 → Burgão Clássico → R$ 18.00")
+print("11 → Burgão Duplo → R$ 25.00")
+print("12 → Burgão Veggie → R$ 22.00")
+
+print("BEBIDAS")
+print("50 → Refrigerante → R$ 6.00")
+print("51 → Suco Natural → R$ 8.00")
+print("52 → Chá Gelado → R$ 7.00")
+
+
 
 
 
@@ -41,6 +53,10 @@ while True:
     add = input("Adicionar extra? (s/n): ")
     if add.lower() == 'n':
         break
+    print("ADICIONAIS:")
+    print("30 → Queijo extra → R$ 3.00")
+    print("31 → Bacon → R$ 4.50")
+    print("32 → Molho especial → R$ 2.00")
     cod = int(input("Código do adicional: "))
     total = total + adicionais[cod]
 
