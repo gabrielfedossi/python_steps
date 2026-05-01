@@ -55,15 +55,15 @@ if tipo == 'e':
 else:
     frete = 0
 
-total += frete
+total = total + frete
 
 
 pag = input("Forma de pagamento (pix/credito): ")
 
 if pag == "pix":
-    total *= 0.90  
+    total = total * 0.90  
 elif pag == "credito":
-    total *= 1.05  
+    total = total * 1.05  
 
 
 print(f"Total a pagar: R$ {total:.2f}")
