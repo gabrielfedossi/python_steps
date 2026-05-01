@@ -71,7 +71,7 @@ while True:
 
     
     print("====== PAGAMENTO ======")
-    print("1 - Pix --> 10% OFF")
+    print("1 - Pix --> Desconto de 10%")
     print("2 - Cartão de Crédito --> 5% Acréscimo")
 
     try:
