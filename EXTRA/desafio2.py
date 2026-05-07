@@ -7,17 +7,17 @@
 # • Calcular o valor total do pedido considerando as regras
 print("===== CARDÁPIO =======")
 print("LANCHES:")
-print("10 → Burgão Clássico → R$ 18.00")
-print("11 → Burgão Duplo → R$ 25.00")
-print("12 → Burgão Veggie → R$ 22.00")
+print("10 → Burgão Clássico = R$ 18.00")
+print("11 → Burgão Duplo = R$ 25.00")
+print("12 → Burgão Veggie = R$ 22.00")
 
 print("BEBIDAS")
-print("50 → Refrigerante → R$ 6.00")
-print("51 → Suco Natural → R$ 8.00")
-print("52 → Chá Gelado → R$ 7.00")
+print("50 → Refrigerante = R$ 6.00")
+print("51 → Suco Natural = R$ 8.00")
+print("52 → Chá Gelado = R$ 7.00")
 
 lanches = {
-    10: 18.00,
+    10: {"nome": "x-burger", "preço": 18.00},
     11: 25.00,
     12: 22.00
 }
@@ -49,9 +49,9 @@ while True:
     if add.lower() == 'n':
         break
     print("ADICIONAIS:")
-    print("30 → Queijo extra → R$ 3.00")
-    print("31 → Bacon → R$ 4.50")
-    print("32 → Molho especial → R$ 2.00")
+    print("30 → Queijo extra = R$ 3.00")
+    print("31 → Bacon = R$ 4.50")
+    print("32 → Molho especial = R$ 2.00")
     cod = int(input("Código do adicional: "))
     total = total + adicionais[cod]
 
@@ -75,6 +75,8 @@ if pag == "pix":
     total = total * 0.90  
 elif pag == "credito":
     total = total * 1.05  
+
+
 
 
 print(f"Total a pagar: R$ {total:.2f}")
